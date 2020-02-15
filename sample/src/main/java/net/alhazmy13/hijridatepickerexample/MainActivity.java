@@ -1,13 +1,15 @@
 package net.alhazmy13.hijridatepickerexample;
 
-import android.os.Bundle;
-import android.support.design.widget.TabLayout;
 import android.app.Fragment;
 import android.app.FragmentManager;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.support.v13.app.FragmentPagerAdapter;
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.legacy.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity
 {
